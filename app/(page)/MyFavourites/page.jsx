@@ -4,7 +4,7 @@ import "../../../components/homeComponents/AllRecipes.css";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { IsLoginContext } from "../../../context/isLoginContext";
-import API from "@/utils/api"
+import API from "@/utils/Api.js"
 import { useToast } from "../../../context/ToastContext";
 
 function MyFavourites() {

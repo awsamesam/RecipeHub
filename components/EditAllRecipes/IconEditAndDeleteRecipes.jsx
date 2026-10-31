@@ -1,4 +1,4 @@
-import API from "@/utils"
+import API from "@/utils/Api.js"
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 function IconEditAndDeleteRecipes({ item, onDeleteSuccess }) {
