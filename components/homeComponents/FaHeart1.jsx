@@ -1,7 +1,7 @@
 "use client";
 
 import { FaHeart } from "react-icons/fa";
-import API from "../../utils";
+import API from "@/utils";
 import { useEffect, useState } from "react";
 import { useToast } from "../../context/ToastContext";
 function FaHeart1({ item }) {

@@ -3,7 +3,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/context/ToastContext";
-import API from "../../../utils/api";
+import API from "@/utils/api";
 import "./AddRecipes.css";
 import { IsLoginContext } from "../../../context/isLoginContext";
 function AddRecipes() {

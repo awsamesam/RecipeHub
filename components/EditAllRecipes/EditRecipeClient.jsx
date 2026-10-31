@@ -1,7 +1,7 @@
 "use client";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import API from "../../utils";
+import API from "@/utils";
 import { useToast } from "@/context/ToastContext";
 import { IsLoginContext } from "../../context/isLoginContext";
 

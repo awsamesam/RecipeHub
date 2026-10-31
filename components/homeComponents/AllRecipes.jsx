@@ -1,6 +1,6 @@
 "use client";
 
-import API from "../../utils";
+import API from "@/utils";
 import { useEffect, useState } from "react";
 import Recipes from "./Recipes";
 import SearchRecipes from "./SearchRecipes";
