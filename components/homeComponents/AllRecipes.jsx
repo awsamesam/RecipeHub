@@ -1,6 +1,6 @@
 "use client";
 
-import API from "@/utils/Api.js";
+import API from "@/utils/api.js";
 import { useEffect, useState } from "react";
 import Recipes from "./Recipes";
 import SearchRecipes from "./SearchRecipes";
@@ -38,7 +38,7 @@ function AllRecipes({ type }) {
           : {}),
       };
 
-      API.get(endpoint,config)
+      API.get(endpoint, config)
         .then((res) => {
           setRecipes(res.data.model || []);
 

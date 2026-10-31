@@ -1,4 +1,4 @@
-import API from "@/utils/Api.js"
+import API from "@/utils/api.js";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 function IconEditAndDeleteRecipes({ item, onDeleteSuccess }) {
@@ -6,7 +6,7 @@ function IconEditAndDeleteRecipes({ item, onDeleteSuccess }) {
   const handleDelete = async () => {
     if (!item || !item._id) return;
     await API.delete(`/recipe/${item._id}`)
-     
+
       .then((res) => {
         if (onDeleteSuccess) {
           onDeleteSuccess(item._id);

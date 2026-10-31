@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import API from "@/utils/Api.js";
+import API from "@/utils/api.js";
 
 function ResetPasswordPage() {
   const [password, setPassword] = useState("");

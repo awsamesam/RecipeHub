@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { useContext, useState } from "react";
 import { useToast } from "@/context/ToastContext";
-import API from "@/utils/Api.js";
+import API from "@/utils/api.js";
 import { IsLoginContext } from "@/context/isLoginContext";
 
 function Login() {
